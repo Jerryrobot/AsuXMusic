@@ -17,7 +17,7 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "5938660179").split()))
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5938660179").split()))
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "120"))
 
-IMG_1 = getenv("IMG_1", "https://te.legra.ph/file/31e9ecee16a46575267a4.jpg")
+IMG_1 = getenv("IMG_1","https://te.legra.ph/file/1161284833b6d70e61849.jpg")
 IMG_2 = getenv("IMG_2", "https://te.legra.ph/file/d744707634106cf76627a.jpg")
 IMG_3 = getenv("IMG_3", "https://telegra.ph/file/f02efde766160d3ff52d6.png")
 IMG_4 = getenv("IMG_4", "https://telegra.ph/file/be5f551acb116292d15ec.png")
